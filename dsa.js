@@ -1,13 +1,11 @@
-const studentsDatabase = ['jonathan', 'jake', 'chukwuma', 'mandy'];
+const groceries = ['milk','bread','donut','flour','sugar','butter',]
 
-const findStudent = (allStudents, studentName) => {
-    for (let i = 0; i < allStudents.length; i++) {
-        if (allStudents[i] === studentName) {
-            console.log(`found ${studentName}`);
-            return; // Exit the loop once the student is found
+const searchForItem = (item) => {
+    for (let i =0; i < groceries.length; i++){
+
+    
+        if (groceries[i]) {
+
         }
     }
-    console.log(`${studentName} not found`); // Optional: handle the case where the student isn't found
-};
-
-findStudent(studentsDatabase, 'mandy');
+}
