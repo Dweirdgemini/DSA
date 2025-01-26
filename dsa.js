@@ -13,5 +13,5 @@ class MyArray {
 }
 
 const myNewArray = new MyArray();
-console.log(myNewArray.push('')); 
+console.log(myNewArray.push('meatball')); 
 console.log(myNewArray);
