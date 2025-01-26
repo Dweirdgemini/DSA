@@ -10,4 +10,4 @@ class MyArray {
 
 const myNewArray = new MyArray();
 
-    console.log(myNewArray)
+    console.log(myNewArray.push('meatballl'))
