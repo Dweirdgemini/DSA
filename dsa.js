@@ -1,13 +1,13 @@
-const groceries = ['milk','bread','donut','flour','sugar','butter',];
+class MyArray {
 
-const searchForItem = (item) => {
-    for (let i = 0; i < groceries.length; i++){
+    constructor(){
 
-    
-        if (groceries[i] == item)  {
-            console.log(`Found; ${item}`);
-        }
+        this.length = 0;
+
+        this.date = {};
     }
-};
+}
 
-searchForItem("bread")
+const myNewArray = new MyArray();
+
+    console.log(myNewArray)
