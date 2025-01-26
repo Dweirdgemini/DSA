@@ -1,13 +1,17 @@
 class MyArray {
-
-    constructor(){
-
+    constructor() {
         this.length = 0;
+        this.data = {}; 
+    }
 
-        this.date = {};
+    
+    push(item) {
+        this.data[this.length] = item; 
+        this.length++; 
+        return this.length; 
     }
 }
 
 const myNewArray = new MyArray();
-
-    console.log(myNewArray.push(''))
+console.log(myNewArray.push('')); 
+console.log(myNewArray);
